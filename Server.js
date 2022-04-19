@@ -19,7 +19,9 @@ const empl2 = {
 
 const textHeader = { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'text/plain', 'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept' };
 const jsonHeader = { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json', 'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept' };
-
+/**
+ * add new
+ */
 http.createServer((req, res) => {
 
     console.log('called page!');
