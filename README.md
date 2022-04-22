@@ -10,5 +10,5 @@ The project requires npm and nodejs installed
 ## launch server
 1. npx is nodecsrc/server.ts
 2. check localhost as port 8080
-3.
+
 
