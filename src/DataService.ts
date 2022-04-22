@@ -46,6 +46,9 @@ export default class DataService {
          * fix critical problem
          */
         const empls: Employee[] = [];
+        /**
+         * feature comment
+         */
         for (const employee of employees) {
             if (employee.possition === possition) {
                 empls.push(employee);
